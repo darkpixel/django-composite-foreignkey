@@ -25,13 +25,13 @@ with open('README.rst') as readme_file:
     readme = readme_file.read()
 
 setup(
-    name='django-composite-foreignkey',
+    name='django-composite-foreignkey-2',
     version=version,
-    description="""composite foreignkey support for django""",
+    description="""composite foreignkey support for Django 4.x""",
     long_description=readme,
     author='Darius BERNARD',
     author_email='contact@xornot.fr',
-    url='https://github.com/onysos/django-composite-foreignkey',
+    url='https://github.com/darkpixel/django-composite-foreignkey',
     packages=[
         'compositefk',
     ],
@@ -45,8 +45,6 @@ setup(
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
@@ -58,11 +56,6 @@ setup(
         'Topic :: Software Development :: Libraries',
         'Topic :: Utilities',
         'Environment :: Web Environment',
-        'Framework :: Django :: 1.11',
-        'Framework :: Django :: 2.0',
-        'Framework :: Django :: 2.1',
-        'Framework :: Django :: 2.2',
-        'Framework :: Django :: 3.1',
-        'Framework :: Django :: 3.2',
+        'Framework :: Django :: 4',
     ],
 )

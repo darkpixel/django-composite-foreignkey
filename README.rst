@@ -1,7 +1,11 @@
+### Note
+
+The original project appears to be abandoned.
+My intent is to solve my immediate issues while learning a bit more about the underlying Django DB model and then continue to update this library.
+
 ===========================
 django-composite-foreignkey
 ===========================
-
 
 
 allow to create a django foreignkey that don't link with pk of other model, but with multi column matching local model columns or fixed values.

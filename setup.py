@@ -56,6 +56,6 @@ setup(
         'Topic :: Software Development :: Libraries',
         'Topic :: Utilities',
         'Environment :: Web Environment',
-        'Framework :: Django :: 4',
+        'Framework :: Django :: 4.0',
     ],
 )
